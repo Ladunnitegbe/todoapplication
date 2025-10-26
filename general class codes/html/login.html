@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="../css/global.css" rel="stylesheet" />
+    <link href="../css/login.css" rel="stylesheet" />
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <form id="form" class="formWrapper">
+          <h1 class="label">Sign in</h1>
+
+          <div class="inputWrapper">
+            <aside class="icon">
+              <img src="../assets/mdi_user (2).svg" />
+            </aside>
+            <input
+              id="email"
+              name="email"
+              required
+              type="email"
+              placeholder="Enter Username"
+              class="input"
+            />
+          </div>
+
+          <div class="inputWrapper">
+            <aside class="icon">
+              <img src="../assets/mdi_password (1).svg" />
+            </aside>
+            <input
+              name="password"
+              id="passwordInput"
+              required
+              type="password"
+              placeholder="Enter Password"
+              class="input"
+            />
+            <span id="error"></span>
+            <button id="passwordLock" type="button" class="passwordLock">
+              <img id="passwordLockIcon" src="../assets/open password.svg" />
+            </button>
+          </div>
+
+          <div class="checkbox_wrapper">
+            <div class="checkbox_container">
+              <input type="checkbox" id="rememberMe" />
+            </div>
+            <label for="rememberMe" class="checkbox_label">Remember me</label>
+          </div>
+
+          <div class="submitBtnWrapper">
+            <button type="submit" class="submitBtn">Login</button>
+          </div>
+
+          <div class="socialmedia_icons_container">
+            <p class="socialmedia_text">Or Login with</p>
+            <div class="socialmedia_icons">
+              <img src="../assets/facebook logo.svg" />
+              <img src="../assets/google logo.svg" />
+              <img src="../assets/x logo.svg" />
+            </div>
+          </div>
+
+          <div class="createaccount_wrapper">
+            <p class="createaccount_text">Don't have an account?</p>
+            <a href="#" class="createaccount_link">Create One</a>
+          </div>
+        </form>
+
+        <div class="display">
+          <img src="../assets/side image.svg" />
+        </div>
+      </div>
+    </div>
+
+  
+
+
+<script type="module" src="../js/login.js" defer></script>
+
+ <!-- module 
+ export (default export, named export)
+ import 
+ common js 
+ How we did things before modules -->
+  </body>
+</html>
+ 

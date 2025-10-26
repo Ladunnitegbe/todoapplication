@@ -1,0 +1,222 @@
+:root {
+    font-size: 10px;
+    font-family: var(--primary-font);
+}
+
+
+.wrapper {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+     background-image: url("../assets/background image.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+.container {
+    max-width: 1370px;
+    position: relative;
+    margin: auto;
+    /* top: 7.9rem; */
+    /* left: 6.8rem; */
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
+.display {
+    max-width: 714px;
+    display: flex;
+}
+
+
+
+/* form styles  */
+
+.formWrapper {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.label {
+    font-size: 3.6rem;
+    font-weight: bold;
+    font-family: var(--primary-font);
+    margin-bottom: 5.2rem;
+}
+
+.inputWrapper + .inputWrapper {
+    margin-top: 3.1rem;
+    
+}
+
+.inputWrapper {
+    position: relative;
+}
+
+.input {
+    width: 100%;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    padding-left: 8.2rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+    font-family: var(--primary-font);
+    border-radius: var(--border-radius-main);
+}
+
+.icon {
+    position: absolute;
+    top: 1.8rem;
+    left: 2.1rem;
+}
+
+.passwordLock {
+    position: absolute;
+    top: 2.5rem;
+    right: 2rem;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+#passwordLockIcon{
+    width: 1rem;
+    height: 1.1rem;
+}
+
+.checkbox_wrapper{
+    margin-top: 1.9631rem;
+    display: flex;
+    align-items: center;
+    
+}
+
+.checkbox_container{
+    
+   
+}
+
+input[type="checkbox"] {
+        -webkit-appearance: none; /* For Safari and Chrome */
+        -moz-appearance: none;    /* For Firefox */
+        appearance: none;
+        width: 1.3106rem;
+        height: 1.4138rem;
+        border: 1px solid #565454;
+        cursor: pointer;
+        position: relative
+    }
+
+input[type="checkbox"]:checked {
+        background-color: #007bff;
+        border-color: #007bff;
+    }
+
+    input[type="checkbox"]:checked::before {
+        content: '✔'; /* Unicode checkmark character */
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 14px;
+    }
+
+.checkbox_label{
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-left: 1.8931rem;
+    color: #212427;
+    font-family: var(--primary-font);
+}
+
+.submitBtnWrapper {
+    width: 15rem;
+    margin-top: 3.2rem;
+}
+
+.submitBtn {
+    background-color: var(--primary-color);
+    color: var(--base-white);
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    width: 100%;
+    border: none;
+    border-radius: var(--border-radius-main);
+    font-size: 1.6rem;
+    font-family: var(--primary-font);
+    cursor: pointer;
+}
+
+.socialmedia_icons_container{
+    margin-top: 8.148rem;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    gap: .3719rem;
+
+}
+
+.socialmedia_text{
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #212427;
+    font-family: var(--primary-font);
+    margin-right: 2.5rem;
+}
+
+.socialmedia_icons{
+    display: flex;
+    gap: 1.398rem;
+    align-items: center;
+}
+
+.createaccount_wrapper{
+    display: flex;
+    align-items: center;
+    margin-top: 1.885rem;
+}
+
+.createaccount_text{
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #212427;
+    font-family: var(--primary-font);
+}
+
+.createaccount_link{
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #008BD9;
+    font-family: var(--primary-font);
+    margin-left: 0.5rem;
+    text-decoration: none;
+}
+
+
+
+
+
+
+/* #grandParent {
+    background-color: cyan;
+    height: 50px;
+}
+
+#parent {
+    background-color: red;
+    height: 100%;
+    width: 500px;
+}
+
+#child {
+    background-color: plum;
+    height: 100%;
+    width: 200px;
+    
+} */
